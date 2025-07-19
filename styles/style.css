@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+/* banner */
+.head{
+  display: flex;
+  justify-content:space-between;
+  margin: 36px 150px;
+ 
+}
+.resume-down{
+  font-weight: 600;
+  font-size: 18px;
+  border: 1px solid #0D1321;
+  border-radius: 6px;
+  opacity: 80%;
+ color: #0D1321;
+ padding: 8px 24px 8px 24px;
+ width: 220px;
+ height: 45px;
+ /* margin: 57x 244px; */
+
+}
+.name-id{
+  font-weight: 800;
+  font-size: 24px;
+}
+.ban{
+ 
+ background-image: url("/B10A1-Challenge-Begins/assets/Hero-bg.png");
+width: 1440px;
+height: 650px;
+gap: 32px;
+margin-bottom: 74px;
+}
+
+.title{
+font-weight: 800;
+font-size: 48px;
+color: #0D1321;
+width: 998px;
+text-align: center;
+margin: auto;
+}
+.man-icon{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 32px;
+}
+.subtitle{
+font-weight: 400;
+font-size: 16px;
+color: #0D1321;
+opacity: 70%;
+text-align: center;
+margin-bottom: 32px;
+width: 852px;
+height: 52px;
+margin: auto;
+padding: 32px;
+}
+.contact{
+  display: block;
+ font-weight: 600;
+ font-size: 20px;
+ color: #FFFFFF;
+ border-radius: 8px;
+ padding: 21px 24px 21px 24px;
+ background-color: #0D1321;
+ margin: auto;
+ 
+}
+/* shared */
+.center{
+  text-align: center;
+
+}
+/* page2 */
+.page-2{
+  padding: 80px 97px;
+  background-color: #0D132105;
+  width: 1140px;
+  margin: auto;
+  border-radius:16px ;
+}
+.head-2{
+  width: 852px;
+  text-align: center;
+  margin: auto;
+}
+.heading{
+  font-size: 32px;
+  font-weight: 800;
+  
+}
+
+.subhead,.subtitle-2{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0D1321;
+  opacity: 70%;
+}
+.subtitle-2{
+  width: 468px;
+  margin-bottom: 32px;
+}
+
+.title-2{
+  font-size: 24px;
+  font-weight: 700;
+color: #0D1321B2;
+ margin-bottom: 16px;
+
+}
+.cards{
+  padding: 48px;
+  
+  /* margin-bottom: 32px; */
+}
+
+
+.card-1{
+  display: flex;
+ background-image: linear-gradient(to right, #FFFFFF,#FFFFFF00 );
+  justify-content: space-around;
+  padding: 48px;
+  margin-bottom: 32px;
+  border-radius: 16px;
+}
+
+.card-1 .title-2{
+  
+  width: 390px;
+  
+}
+.card-2{
+  display: flex;
+  padding: 48px;
+background-image: linear-gradient(to left, #FFFFFF,#FFFFFF00 );
+margin-bottom: 32px;
+border-radius: 16px;
+
+}
+.card-2 .title-2{
+  width: 477px;
+}
+.btn{
+  font-size: 20px;
+  font-weight: 600;
+  color: #0D1321;
+  padding: 12px 20px;
+  opacity: 70%;
+ border: 1px solid  #0D1321;
+ border-radius: 0;
+ background-color: #FFFFFF;
+ 
+}
+
+.image{
+  width: 240px;
+  height: 240px;
+}
+
+.card-2 .image{
+  margin-right: 32px;
+}
