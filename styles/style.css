@@ -169,3 +169,31 @@ border-radius: 16px;
 .card-2 .image{
   margin-right: 32px;
 }
+
+/* page-3 */
+.head-3{
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  width: 852px;
+}
+.heading-3{
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  
+}
+.head-3>.subhead{
+  text-align: center;
+
+}
+.video-content{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #0D132133;
+  padding: 32px;
+  margin-left: 152px;
+  margin-right: 152px;
+  border-radius: 16px;
+  margin-bottom: 151px;
+}
