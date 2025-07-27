@@ -9,6 +9,7 @@
 .head{
   display: flex;
   justify-content:space-between;
+  align-items: center;
   margin: 36px 150px;
  
 }
@@ -29,8 +30,11 @@
   font-weight: 800;
   font-size: 24px;
 }
+.ban-contain{
+  display: flex;
+  justify-content: center;
+}
 .ban{
- 
  background-image: url("/B10A1-Challenge-Begins/assets/Hero-bg.png");
 width: 1440px;
 height: 650px;
@@ -196,4 +200,117 @@ border-radius: 16px;
   margin-right: 152px;
   border-radius: 16px;
   margin-bottom: 151px;
+}
+
+/* page-4 */
+
+.page-4{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.current>.head{
+  margin-bottom: 48px;
+}
+.current-cards{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+  margin-bottom: 111px;
+}
+
+.card-title{
+  font-size: 24px;
+  font-weight: 800;
+}
+.learn{
+  color: #0D1321;
+  font-size: 16px;
+  font-weight: 700;
+}
+.skill-cards{
+  padding: 40px;
+  /* border: 1px solid black; */
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+}
+.skill-cards>.subhead{
+  margin-bottom: 60px;
+}
+.skill-cards>img{
+  margin-bottom: 24px;
+}
+.html{
+  background-color: #FF4C1E0D;
+}
+.css{
+  background-color: #004CE80D;
+}
+.js{
+  background-color: #FFDF000D;
+}
+.next{
+  margin-bottom: 49px;
+}
+.next-card{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 40px;
+  border: 1px solid #0D132126;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+/* page-5 */
+.support{
+  margin: 0 auto;
+  padding: 64px 48px;
+  border-radius: 16px;
+  background-image: url("/B10A1-Challenge-Begins/assets/handshake.jpg");
+  background-size: cover;
+  background-position: 0%;
+  width: 1140px;
+  
+}
+.heading-4{
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.subhead-2{
+  color: #FFFFFF;
+  opacity: 70%;
+  width: 606px;
+}
+
+#feedback{
+  width: 548px;
+  /* height: 20px; */
+  border-radius: 8px;
+  border: 1px solid #0D132126;
+  padding: 19px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.submit{
+  margin-top: 24px;
+  width: 120px;
+  /* height: 60px; */
+  border-radius: 8px;
+  padding: 17px 20px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.foot{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 150px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #0D132108;
 }
