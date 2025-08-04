@@ -175,6 +175,10 @@ border-radius: 16px;
 }
 
 /* page-3 */
+
+.page-3{
+  margin-top: 90px;
+}
 .head-3{
   text-align: center;
   margin: 0 auto;
